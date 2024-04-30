@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image1 {
+  height: 35px;
+  margin-right: 8px;
+}
+
+.h1 {
+  color: white;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #2cc6c6;
+}
+
+.h2 {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+}
+
+.failureContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.failureImage {
+  width: 75%;
+}
+
+.failureHeading {
+  font-family: bree serif;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 20px;
+}
